@@ -1,0 +1,62 @@
+#HASHCROP
+##Terraform
+- Tool for building , changing and versioning infrastructure safely and efficiently 
+- provides consistent CLI workflow to manage cloud services
+....................................................................................................................................
+##Workflow 
+1. Write:
+- infrastructure as code using declarative configuration files 
+- HCL (Hashcrop Configuration Language)
+- description as resource using blocks , arguements and expression
+2. Plan:
+- Preview change before applying 
+- Run terraform plan to check whether execution plan for config matches the expectations before provisioning  or changing infra 
+3. Apply:
+- Provision reproducible infrastructure
+- changes to hundreds to clouds providers with terraform apply to reach the desired state of configuaration 
+....................................................................................................................................
+##Terraform Language
+- terraform primary user interface 
+- to declare resources -represents infrastructure objects 
+##Terraform Configuartion
+- consists of multiple files and directories 
+....................................................................................................................................
+##Pros 
+- inbuilt state management
+- maintain version history of infrastructure 
+- use client only architecture
+- Immuatble
+- Interpolation only expressions are deprecated
+##Cons 
+- declarative  language limitations 
+- doesn't support rollback after failure 
+- dry inbuilt future 
+.....................................................................................................................................
+##WHY ?
+- create reproducible infrasture
+- manage infrasture across clouds
+- to codify application infrastructure
+....................................................................................................................................
+##HOW?
+- Allows infrastructure to be expressed as code 
+- Reads configuration files and provides an execution plan 
+....................................................................................................................................
+##Features
+1. infrastructure as code 
+2. execution plan 
+3. resource graph 
+4. change automation 
+.....................................................................................................................................
+Usecase:
+1. Heroku App setup
+2. Self service clusters 
+3. Development of multi tier application 
+4. Multi cloud deployment 
+.....................................................................................................................................
+##Commands 
+1. terraform init   		:working directory initialized for other commands 
+2.           validate 		:check configuration is valid or not 
+3.           plan              :show changes required in the current configuation 
+4.           apply 		:create or update infrastructure
+5. 	     destroy 		: previously created infrastructure
+....................................................................................................................................
