@@ -1,0 +1,43 @@
+#Bash Script
+##Bash script Overview
+- Bash:Bourne Again Shell - an interface to execute statements 
+- Shell : a command interpreter acting as a layer between user and the system.
+- Script: list of commands stored in a file -used to automate logics 
+..............................................................................................................................................
+##Usecase
+- Used in various cases like : shell execution , to run multiple commands together, customizing admistrative tasks , automation of tasks 
+- Bash can run in non-interactive mode as when executing scripts 
+................................................................................................................................................
+###Creating Bash Script 
+#!/bin/bash : written at the top of file to create a bash script 
+- It is called as interpreter directive  / hashbang /sheband
+- ends with .sh 
+.................................................................................................................................................
+###Advantages 
+1. startup time: 2.8 milli seconds 
+2. simple 
+..................................................................................................................................................
+###Disadvantages 
+- Bash dosen't have much compatability with data types 
+...................................................................................................................................................
+1. $: indicates shell compatability with Bourne shell 
+2. %: indicates shell compatability with C shell 
+3. #: indicates shell running as systems super user account
+...................................................................................................................................................
+###Commands 
+1. man [topic] 	: stands for manual - opens documentation on various topics (page sthat want to be read)
+2. help        	: breif summary of built in commands
+3. ls          	: list of files in current directory 
+4. touch       	: create files
+5. rm 	       	: remove 
+6. echo       		: prints arguments to standard output 
+7. env         	: displays envi variables
+8. echo $SHELL 	: displays the shell using 
+9. echo $BASH_VERSION  : displays version of bash 
+10. exit 		:exit the shell 
+11. ssh user@host 	:connects to host 
+12. pwd 		: current location
+13. whoami		: returns user name 
+14. bg 		:lists stopped and background jobs 
+15. fg 		: brings most recent jobs in fore ground 
+....................................................................................................................................................
