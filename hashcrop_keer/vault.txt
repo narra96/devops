@@ -1,0 +1,42 @@
+#HASHCROP
+##Vault
+- Opensource
+- Tool for secret management and protect sensitive data 
+....................................................................................................................................
+##Pillars of Vault :4
+1. Mitigation of internal and external threats: 
+-allowing Vault to be sealed or unsealed in response to crisis, and supporting a variety of security backends.
+2. Dynamic secrets: 
+-Vault is able to generate credentials automatically for different backends.
+3. Lease renewal/revoke access to secrets:
+ Vault allows you to specify TTL rules for a secret, allowing fine control over permissions.
+4. Auditing: 
+Once enabled, every secret request will be logged, with the output directed to a file or to syslog.
+....................................................................................................................................
+##Plugins offered by Vault in 3 main areas 
+1. Secret storage: that will “host” the secrets. Available backends include AWS S3, Consul, Generic (file storage) among others
+2. Authentication controls: The authentication mechanism used. Available backends are AWS EC2, LDAP, Github, Tokens, Username/password, and others
+3. Audit logs: Where logs are sent. Available File or syslog
+- More than one backend can be enabled 
+....................................................................................................................................
+VAULT APPROACH
+1. Low-trust networks in public clouds
+2. Unknown network perimeter across clouds
+3. Security enforced by Identity
+.....................................................................................................................................
+##Principles 
+1. API driven :enables automation and CI/VD use cases 
+2. Secure with any identity 
+3. Extend and Integrate 
+....................................................................................................................................
+##HOW?
+- Vault tightly controls access to secrets and encryption keys by authenticating against trusted sources of identity
+- Enables fine grained authorization of which users and applications are permitted access to secrets and keys.
+.....................................................................................................................................
+Usecase:
+1. Secret management
+2. Data Encryption
+3. Identity based access
+- Human permissions:RBAC (role based access)
+- Machine(work based) 
+.....................................................................................................................................
