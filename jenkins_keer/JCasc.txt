@@ -1,0 +1,17 @@
+#JCasC
+##Overview 
+-Jenkins Configration as code 
+- provides the ability to define the whole config as simple , human friendly , plain text 
+- The ability to reproduce or restore a full envi within minutes based on automation manged as code :config as code 
+- yaml synatx 
+- without a manual step config can validate and applied to jenkins controller in fully reproducible way 
+1. config all jenkins initial setup 
+2. supports most plugins without extra development effort
+...................................................................................................................................
+##YAML
+- yet another markup language 
+- superset of JSON 
+- not a scripting language 
+- not a markup language 
+- human readable and data serialization 
+
